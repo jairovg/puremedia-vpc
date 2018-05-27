@@ -1,6 +1,19 @@
 // Breakpoints
 $lg-screen: 768px;
 
+/* Font related
+    ff: font family
+    fs:font size
+    fw: font weight
+    lh:line height
+*/
+$ff-base: "Merriweather", serif;
+$ff-forms: "Raleway", sans-serif;
+$fs-normal: 15px;
+$fw-normal: 400;
+$fw-bold:   700;
+$lh-normal: 30px;
+
 // Colors
 $grey-darkest:    rgb(14,16,21);    //#0E1015
 $grey-darker:     rgb(18,21,27);    //#12151B
@@ -16,3 +29,4 @@ $offset-65: 65px;
 
 // Resources
 $img-logo: url("../assets/images/logo.png");
+$img-hero: url("../assets/images/hero-bg.jpg");
