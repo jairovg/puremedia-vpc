@@ -2,5 +2,12 @@
   .menu-items {
     position: initial;
     background-color: initial;
+    align-items: center;
+    display: flex;
+    padding: 0;
+  }
+
+  .menu-item {
+    border-bottom: none;
   }
 }

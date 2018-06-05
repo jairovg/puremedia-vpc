@@ -1,7 +1,10 @@
 .menu {
+  font: bold 11px/#{$lh-normal} $ff-forms;
   position: relative;
   display: flex;
   justify-content: center;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
 }
 
 .menu-items {
@@ -27,4 +30,14 @@
   background: $img-logo no-repeat center;
   width: 126px;
   font-size: 0;
+}
+
+.menu-option::after {
+  content: ".";
+}
+
+.menu-option {
+  color: $grey-light;
+  text-decoration: none;
+  margin: 0 12px;
 }
