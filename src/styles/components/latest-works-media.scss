@@ -1,0 +1,19 @@
+@media screen and (min-width: $md-screen) {
+  .work {
+    width: 33%;
+  }
+
+  .work-img {
+    width: 33%;
+  }
+}
+
+@media screen and (min-width: $lg-screen) {
+  .work {
+    width: 25%;
+  }
+  
+  .work-img {
+    width: 25%;
+  }
+}
