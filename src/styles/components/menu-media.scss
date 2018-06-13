@@ -1,7 +1,19 @@
 @media screen and (min-width: $lg-screen) {
+  .menu {
+    background: rgba(18, 21, 27, 0.5);
+    position: fixed;
+  }
+
   .menu-items {
     position: initial;
     background-color: initial;
+    align-items: center;
+    display: flex;
+    padding: 0;
+  }
+
+  .menu-item {
+    border-bottom: none;
   }
 
   .menu-item {

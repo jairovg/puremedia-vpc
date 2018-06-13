@@ -29,3 +29,14 @@
     color: $orange-light;
   }
 }
+
+.h2 {
+  font: 16px/24px "raleway-heavy", sans-serif;
+  color: #252525;
+  font-weight: bold;
+  margin: 18px 0 15px;
+  
+  &::after {
+    content: ".";
+  }
+}

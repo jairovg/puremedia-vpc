@@ -1,5 +1,10 @@
-@media screen and (min-width: $lg-screen){
-    .hero-option:hover{
-        color: $orange-light;
-    }
+@media screen and (min-width: $lg-screen) {
+  .hero-items {
+    margin-left: 30%;
+    margin-right: 30%;
+  }
+
+  .hero-option:hover {
+    color: $orange-light;
+  }
 }

@@ -1,0 +1,28 @@
+.services {
+  display: flex;
+  flex-flow: row wrap;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.service {
+  font-family: 'Simple-Line-Icons';
+  position: relative;
+  flex: 1 1 350px;
+  display: flex;
+  flex-flow: column wrap;
+  overflow: hidden;
+  padding: 0 22px;
+}
+
+.service-icon {
+  background: #f26522;
+  color: white;
+  border-radius: 3px;
+  margin: 0 auto;
+  font-size: 40px;
+  padding: 15px 3px;
+  width: 72px;
+}
