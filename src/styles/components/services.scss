@@ -9,10 +9,11 @@
 
 .service {
   position: relative;
-  flex: 1 1 400px;
+  flex: 1 1 350px;
   display: flex;
   flex-flow: column wrap;
   overflow: hidden;
+  padding: 0 22px;
 }
 
 .icon-graph::before {

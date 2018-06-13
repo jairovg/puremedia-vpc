@@ -1,14 +1,14 @@
 .values {
   display: flex;
   flex-flow: row wrap;
-  max-width: 1200px;
+  max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
 }
 
 .value {
   position: relative;
-  flex: 1 1 600px;
+  flex: 1 1 500px;
   display: flex;
   flex-flow: column wrap;
   overflow: hidden;
