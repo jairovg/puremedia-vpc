@@ -8,6 +8,7 @@
 }
 
 .service {
+  font-family: 'Simple-Line-Icons';
   position: relative;
   flex: 1 1 350px;
   display: flex;
@@ -16,6 +17,12 @@
   padding: 0 22px;
 }
 
-.icon-graph::before {
-	content: "\e06b";
+.service-icon {
+  background: #f26522;
+  color: white;
+  border-radius: 3px;
+  margin: 0 auto;
+  font-size: 40px;
+  padding: 15px 3px;
+  width: 72px;
 }
