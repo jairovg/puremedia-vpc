@@ -13,7 +13,6 @@
   list-style-type: none;
   margin: 0;
   color: white;
-  -webkit-padding-start: 0;
   margin-left: 15%;
   margin-right: 15%;
 }
@@ -37,6 +36,13 @@
   
 }
 
+.btn {
+  color: white;
+  font-family: helvetica;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
 .hero-option {
   border: 3px solid white;
   border-radius: 100%;
@@ -44,4 +50,8 @@
   height: 15px;
   margin: 0 6px;
   width: 15px;
+
+  &.is-active {
+      color: $orange-light;
+  }
 }

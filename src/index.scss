@@ -1,6 +1,6 @@
 // Import regular (400) font
 @import url('https://fonts.googleapis.com/css?family=Merriweather');
-@import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700,800');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css');
 
 @import "./styles/variables.scss";
@@ -13,12 +13,12 @@
 // Components mobile first
 @import "./styles/components/menu.scss";
 @import "./styles/components/hero.scss";
-@import "./styles/components/works.scss";
 @import "./styles/components/services.scss";
 @import "./styles/components/values.scss";
+@import "./styles/components/work.scss";
 
 // Media rules
 @import "./styles/layout-rules-media.scss";
 @import "./styles/components/menu-media.scss";
 @import "./styles/components/hero-media.scss";
-@import "./styles/components/works-media.scss";
+@import "./styles/components/work-media.scss";
